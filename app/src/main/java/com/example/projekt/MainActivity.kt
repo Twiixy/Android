@@ -9,9 +9,13 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
 
         val Ausgabe: Button = findViewById (R.id.new_Ausgabe)

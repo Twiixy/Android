@@ -228,6 +228,29 @@ class addAusgabe : AppCompatActivity(),DatePickerDialog.OnDateSetListener {
         }
 
 
+
+        val Spinner5 = findViewById<Spinner>(R.id.SpinnerZahlungsmethoden)// Empfänger auswahl
+
+        val empty5 =  resources.getStringArray(R.array.Zahlungsmittel_auswahl)
+        val arrayadapter5 =ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,empty5)
+        arrayadapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+
+        Spinner5.adapter = arrayadapter5
+        Spinner5.onItemSelectedListener=object: AdapterView.OnItemSelectedListener{
+            override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+                Toast.makeText(applicationContext,"Ausgewählter Empfänger: "+empty5[p2],Toast.LENGTH_SHORT).show()
+
+
+
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+                TODO("Not yet implemented")
+            }
+
+        }
+
+
         val pericheckbox = findViewById<CheckBox>(R.id.checkBoxPeriodisch)
 
         pericheckbox.setOnClickListener()

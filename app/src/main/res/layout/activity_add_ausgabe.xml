@@ -7,8 +7,18 @@
     tools:context=".MainActivity">
 
 
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="157dp"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
 
-
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="33dp"
+        tools:context=".MapsActivity" />
 
     <TextView
         android:id="@+id/chooseFiliale"
@@ -81,6 +91,20 @@
         android:layout_marginStart="103dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="63dp"
+        android:outlineAmbientShadowColor="#03A9F4" />
+
+    <Spinner
+        android:id="@+id/SpinnerZahlungsmethoden"
+
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="37dp"
         android:outlineAmbientShadowColor="#03A9F4" />
 
     <EditText
@@ -214,8 +238,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="66dp"
-        android:layout_marginBottom="207dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="204dp"
         android:text="AktuellerStandort" />
 
     <TextView
