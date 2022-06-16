@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF09E2FF"
+    android:backgroundTint="#09E2FF"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="7dp"
+        android:background="#E6F32A2A"
+        android:text="Willkommen!"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/new_Ausgabe"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/settingsbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:text="Ausgabe Hinzufügen"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/settingsbutton"
+
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:text="Einstellungen"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Kontostandtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="582dp"
+        android:text="Kontostand: -----"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Budgettxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="624dp"
+        android:text="Budget: -----"
+        android:textSize="30dp" />/>
+
+</RelativeLayout>

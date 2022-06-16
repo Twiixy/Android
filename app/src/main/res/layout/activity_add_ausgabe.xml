@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:id="@+id/chooseFiliale"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="308dp"
+        android:text="Filiale "
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/SpinnerFiliale"
+
+
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="64dp"
+        android:outlineAmbientShadowColor="#03A9F4"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/SpinnerEmpfänger"
+
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="20dp"
+        android:outlineAmbientShadowColor="#03A9F4" />
+
+    <Spinner
+        android:id="@+id/SpinnerVerwendungszweck"
+
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="38dp"
+        android:outlineAmbientShadowColor="#03A9F4" />
+
+    <Spinner
+        android:id="@+id/SpinnerEinundAusgabe"
+
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="63dp"
+        android:outlineAmbientShadowColor="#03A9F4" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="137dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewBetrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="141dp"
+        android:text="Betrag"
+        android:textSize="20dp" />
+
+    <EditText
+
+        android:id="@+id/EmpfängerAuswahlName"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SpinnerEmpfänger"
+        android:layout_marginStart="0dp"
+
+        android:layout_toRightOf="@+id/textView2"
+
+        android:allowClickWhenDisabled="false"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewBetrag"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="190dp"
+        android:text="Empfänger" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="282dp"
+        android:text="Verwendungszweck" />
+
+    <TextView
+        android:id="@+id/Einundausgabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="661dp"
+        android:text="Ein/Ausgabe" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="626dp"
+        android:text="Periodisch" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPeriodisch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="608dp"
+        android:text="Nein" />
+
+    <EditText
+        android:id="@+id/editTextPeriodischTage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="589dp"
+        android:ems="10"
+        android:hint="Alle x Tage"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/textViewverwendungszweckdynamisch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginBottom="348dp"
+
+        android:hint="Test"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="219dp"
+        android:text="Ort" />
+
+    <Button
+        android:id="@+id/buttonStandort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginBottom="207dp"
+        android:text="AktuellerStandort" />
+
+    <TextView
+        android:id="@+id/textViewDatum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="74dp"
+        android:text="Datum" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="314dp"
+        android:text="ZahlungsMethode" />
+
+    <Button
+        android:id="@+id/buttonDatum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="95dp"
+        android:text="Button" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filialen_namen">
+
+        <item>Rewe</item>
+        <item>Lidl</item>
+        <item>Aldi</item>
+        <item>Penny</item>
+
+    </string-array>
+
+
+</resources>

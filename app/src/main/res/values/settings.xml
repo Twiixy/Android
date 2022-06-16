@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sprachen_auswahl">
+
+        <item>Deutsch</item>
+        <item>English</item>
+
+    </string-array>
+
+
+    <string-array name="empfänger_auswahl">
+
+        <item>Name</item>
+        <item>Art</item>
+        <item>Kathegorie</item>
+        <item>Nummer</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="verwendungszweck_auswahl">
+
+        <item>Lebensmittel</item>
+        <item>Restaurant</item>
+        <item>Miete</item>
+        <item>Auto und Service</item>
+        <item>Urlaub</item>
+        <item>Entertainment</item>
+        <item>Kleidung</item>
+        <item>Schreibwaren</item>
+        <item>Drogerie</item>
+
+
+    </string-array>
+
+
+    <string-array name="EinundAusgabe_auswahl">
+
+        <item>Einnahme</item>
+        <item>Ausgabe</item>
+
+    </string-array>
+
+
+    <string-array name="Zahlungsmittel_auswahl">
+
+        <item>Bargeld</item>
+        <item>PayPal</item>
+        <item>Giro</item>
+        <item>Kreditkarte</item>
+        <item>andere Zahlungsmittel</item>
+
+    </string-array>
+
+
+</resources>
